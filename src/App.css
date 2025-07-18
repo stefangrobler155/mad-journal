@@ -4,3 +4,102 @@
   padding: 2rem;
   text-align: center;
 }
+
+.mad__header {
+  background-color: hsl(0, 0%, 60%);
+  border-radius: 10px 10px 0 0;
+  max-width: 640px;
+  margin: 0 auto;
+  padding-block: 0.5rem;
+}
+.mad__header-title {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+.mad__header-icon {
+  width: 2rem;
+  height: 2rem;
+  vertical-align: text-bottom;
+  margin-right: 0.5rem;
+}
+.mad__home-section {
+  max-width: 640px;
+  margin: 0 auto;
+  background-color: hsl(0, 0%, 97%);
+  border: 5px solid hsl(0, 0%, 97%);
+  border-radius: 10px;
+}
+
+/* MADCARD */
+.mad__cards-container{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+}
+.mad__entries-count{
+  font-weight: 600;
+  color: hsl(0, 0%, 7%);
+  margin-top: 1rem;
+  text-align: left;
+  padding: 0;
+}
+.mad__card_cont {
+  background-color: hsl(0, 0%, 60%);
+  border-radius: 10px;
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.mad__card-img_cont{
+  flex: 1;
+  width: 30%;
+  min-width: 100px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.mad__card-image{
+  width: 100%;
+  border-radius: 10px;
+}
+.mad__card-text_cont {
+  flex: 3;
+  width: 70%;
+  min-width: 200px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  gap: 0.5rem;
+}
+.mad__card-text_meta {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.mad__card-text_meta .icon {
+  color: black;
+}
+.mad__card-title {
+  display: flex;
+  gap: 0.5rem;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: hsl(0, 0%, 30%);
+  margin: 0;
+}
+.mad__card-content{
+  font-weight: 300;
+  font-size: 0.9rem;
+  color: hsl(0, 0%, 97%);
+}
+.mad__card-date {
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: hsl(0, 0%, 40%);
+  margin: 0;
+}

@@ -1,11 +1,14 @@
+@import url('href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"');
+
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
+  font-family: "Inter", sans-serif;
+  line-height: 1;
   font-weight: 400;
+  font-size: 16px;
 
   color-scheme: light dark;
-  color: hsl(0, 100%, 95%);
-  background-color: #220000;
+  color: hsl(0, 0%, 95%);
+  background-color: hsl(0, 0%, 10%);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -23,30 +26,24 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
 }
+p{
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
 a {
   font-weight: 500;
-  color: hsl(0, 100%, 80%);
+  color: hsl(0, 0%, 80%);
   text-decoration: inherit;
 }
 a:hover {
-  color: hsl(0, 100%, 60%);
+  color: hsl(0, 0%, 30%);
 }
 
 body {
+  font-family: "Inter", sans-serif;
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-}
