@@ -53,3 +53,24 @@ export const jokeData = [
         content: "Because they make up everything!" 
     }
 ];
+export const jokePokeData = [
+    {
+        id: 1,
+        heading: "Joke of the Day", 
+        question: "What do you call a sad cup of coffee?",
+        answer: "Depresso."
+    },
+    {
+        id: 2,
+        heading: "Joke of the Day", 
+        question: "Why don’t chickens wear underwear?",
+        answer: "Because their pecker is on their face."
+    },
+    {
+        id: 3,
+        heading: "Joke of the Day", 
+        question: "What do you get when you cross a joke with a rhetorical question?",
+        answer: ""
+    }
+   
+];

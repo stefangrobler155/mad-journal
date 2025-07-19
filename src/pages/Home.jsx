@@ -3,7 +3,8 @@ import MadCards from '../components/MadCards'
 import MadCardsProps from '../components/MadCardsProps'
 import MadCardsPropsDes from '../components/MadCardsProps'
 import Joke from '../components/Joke'
-import { jokeData } from '../data/data';
+import JokePoke from '../components/JokePoke'
+import { jokeData, jokePokeData } from '../data/data';
 
 const Home = (props) => {
   return (
@@ -56,7 +57,10 @@ const Home = (props) => {
             title={jokeData[2].title}
             content={jokeData[2].content}
         />
-
+        <JokePoke
+            key={jokePokeData.id}
+            jokePokeData={ jokePokeData } 
+        />
     </section>
   )
 }
