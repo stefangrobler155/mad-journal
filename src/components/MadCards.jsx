@@ -1,13 +1,16 @@
-import React from 'react'
 import { data } from '../data/data'
 import { FaPhotoVideo } from "react-icons/fa";
 import { IoIosPin } from "react-icons/io";
+import { ImSad2 } from "react-icons/im";
 
 const MadCards = () => {
   return (
     <div className='mad__cards-container'>
         { data.length === 0 ? (
-            <p className="mad__no-entries">No entries available.</p>    
+            <div className="mad__no-entries_cont">
+                <ImSad2 className="mad__no-entries-icon" />
+              <p className="mad__no-entries">No entries available.</p>     
+            </div>
         ) : (
             <p className="mad__entries-count">Total Entries: {data.length}</p>
         )}      
@@ -25,7 +28,6 @@ const MadCards = () => {
                         <p className="mad__card-date">{new Date(entry.date).toLocaleDateString()}</p> 
                         <p className="mad__card-content">{entry.content}</p>
                     </div>
-                    
                 </div>
             ))
         }
